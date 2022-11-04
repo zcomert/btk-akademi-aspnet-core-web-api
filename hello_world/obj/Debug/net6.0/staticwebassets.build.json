@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ycAEqwDcHvaSW70P5beDiUdZvR7DDqrnDZRa9kI4Aew=",
+  "Source": "hello_world",
+  "BasePath": "_content/hello_world",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
