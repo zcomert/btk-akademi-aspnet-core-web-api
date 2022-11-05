@@ -1,15 +1,17 @@
 ﻿using Entities.Models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
-using Repositories.Contracts;
-using Repositories.EFCore;
 using Services.Contracts;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace WebApi.Controllers
+namespace Presentation.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/books")]
     public class BooksController : ControllerBase
     {
         private readonly IServiceManager _manager;
@@ -40,7 +42,7 @@ namespace WebApi.Controllers
                 var book = _manager
                 .BookService
                 .GetOneBookById(id, false);
-                
+
                 if (book is null)
                     return NotFound(); //404
 
@@ -50,7 +52,7 @@ namespace WebApi.Controllers
             {
                 throw new Exception(ex.Message);
             }
-            
+
         }
 
         [HttpPost]
@@ -119,8 +121,8 @@ namespace WebApi.Controllers
                     return NotFound(); // 404
 
                 bookPatch.ApplyTo(entity);
-                _manager.BookService.UpdateOneBook(id,entity,true);
-                
+                _manager.BookService.UpdateOneBook(id, entity, true);
+
                 return NoContent(); // 204
             }
             catch (Exception ex)
