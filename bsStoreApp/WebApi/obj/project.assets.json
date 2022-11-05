@@ -766,6 +766,20 @@
         "runtime": {
           "bin/placeholder/Entities.dll": {}
         }
+      },
+      "Repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.10"
+        },
+        "compile": {
+          "bin/placeholder/Repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repositories.dll": {}
+        }
       }
     }
   },
@@ -2200,6 +2214,11 @@
       "type": "project",
       "path": "../Entities/Entities.csproj",
       "msbuildProject": "../Entities/Entities.csproj"
+    },
+    "Repositories/1.0.0": {
+      "type": "project",
+      "path": "../Repositories/Repositories.csproj",
+      "msbuildProject": "../Repositories/Repositories.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2207,10 +2226,10 @@
       "Entities >= 1.0.0",
       "Microsoft.AspNetCore.JsonPatch >= 6.0.10",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 6.0.10",
-      "Microsoft.EntityFrameworkCore >= 6.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.10",
+      "Repositories >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -2248,6 +2267,9 @@
           "projectReferences": {
             "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Entities\\Entities.csproj": {
               "projectPath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Entities\\Entities.csproj"
+            },
+            "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Repositories\\Repositories.csproj": {
+              "projectPath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Repositories\\Repositories.csproj"
             }
           }
         }
@@ -2267,10 +2289,6 @@
             "version": "[6.0.10, )"
           },
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
-            "target": "Package",
-            "version": "[6.0.10, )"
-          },
-          "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[6.0.10, )"
           },

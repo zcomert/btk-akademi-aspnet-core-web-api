@@ -66,3 +66,5 @@ F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\N
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Entities.dll
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Entities.pdb
+F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Repositories.dll
+F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Repositories.pdb

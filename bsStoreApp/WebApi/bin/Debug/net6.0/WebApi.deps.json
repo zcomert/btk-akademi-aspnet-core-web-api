@@ -11,10 +11,10 @@
           "Entities": "1.0.0",
           "Microsoft.AspNetCore.JsonPatch": "6.0.10",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.10",
-          "Microsoft.EntityFrameworkCore": "6.0.10",
           "Microsoft.EntityFrameworkCore.Design": "6.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.10",
+          "Repositories": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
@@ -539,6 +539,15 @@
         "runtime": {
           "Entities.dll": {}
         }
+      },
+      "Repositories/1.0.0": {
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.10"
+        },
+        "runtime": {
+          "Repositories.dll": {}
+        }
       }
     }
   },
@@ -920,6 +929,11 @@
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
     "Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Repositories/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
