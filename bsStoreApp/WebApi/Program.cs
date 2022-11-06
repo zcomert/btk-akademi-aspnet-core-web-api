@@ -1,9 +1,11 @@
 using Microsoft.EntityFrameworkCore;
+using NLog;
 using Repositories.EFCore;
 using WebApi.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
+LogManager.LoadConfiguration(String.Concat(Directory.GetCurrentDirectory(),"/nlog.config"));
 
 builder.Services.AddControllers()
     .AddApplicationPart(typeof(Presentation.AssemblyRefence).Assembly)
