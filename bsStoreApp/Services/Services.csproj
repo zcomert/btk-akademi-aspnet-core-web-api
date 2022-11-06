@@ -7,8 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Entities\Entities.csproj" />
     <ProjectReference Include="..\Repositories\Repositories.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NLog.Extensions.Logging" Version="5.1.0" />
   </ItemGroup>
 
 </Project>

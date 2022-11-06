@@ -1,6 +1,5 @@
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Presentation\bin\Debug\net6.0\Presentation.deps.json
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Presentation\bin\Debug\net6.0\Presentation.dll
-F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Presentation\bin\Debug\net6.0\ref\Presentation.dll
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Presentation\bin\Debug\net6.0\Presentation.pdb
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Presentation\bin\Debug\net6.0\Entities.dll
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Presentation\bin\Debug\net6.0\Repositories.dll
@@ -15,5 +14,6 @@ F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Presentation\obj\Debug\ne
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Presentation\obj\Debug\net6.0\Presentation.csproj.CoreCompileInputs.cache
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Presentation\obj\Debug\net6.0\Presentation.csproj.CopyComplete
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Presentation\obj\Debug\net6.0\Presentation.dll
-F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Presentation\obj\Debug\net6.0\ref\Presentation.dll
+F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Presentation\obj\Debug\net6.0\refint\Presentation.dll
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Presentation\obj\Debug\net6.0\Presentation.pdb
+F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Presentation\obj\Debug\net6.0\ref\Presentation.dll

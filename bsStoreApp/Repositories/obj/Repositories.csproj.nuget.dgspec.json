@@ -13,12 +13,8 @@
         "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
         "outputPath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\ProgramFiles\\Microsoft\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -72,12 +68,8 @@
         "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
         "outputPath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\ProgramFiles\\Microsoft\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -109,7 +101,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[6.0.0, )"
             }
           },
           "imports": [

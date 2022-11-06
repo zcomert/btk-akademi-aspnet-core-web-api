@@ -1,6 +1,5 @@
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Services\bin\Debug\net6.0\Services.deps.json
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Services\bin\Debug\net6.0\Services.dll
-F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Services\bin\Debug\net6.0\ref\Services.dll
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Services\bin\Debug\net6.0\Services.pdb
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Services\bin\Debug\net6.0\Entities.dll
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Services\bin\Debug\net6.0\Repositories.dll
@@ -13,5 +12,6 @@ F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Services\obj\Debug\net6.0
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Services\obj\Debug\net6.0\Services.csproj.CoreCompileInputs.cache
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Services\obj\Debug\net6.0\Services.csproj.CopyComplete
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Services\obj\Debug\net6.0\Services.dll
-F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Services\obj\Debug\net6.0\ref\Services.dll
+F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Services\obj\Debug\net6.0\refint\Services.dll
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Services\obj\Debug\net6.0\Services.pdb
+F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Services\obj\Debug\net6.0\ref\Services.dll
