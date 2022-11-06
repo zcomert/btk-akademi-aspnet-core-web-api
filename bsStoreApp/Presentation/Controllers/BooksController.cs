@@ -39,6 +39,7 @@ namespace Presentation.Controllers
         {
             try
             {
+                throw new Exception("!!!!");
                 var book = _manager
                 .BookService
                 .GetOneBookById(id, false);
