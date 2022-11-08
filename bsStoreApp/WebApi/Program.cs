@@ -19,6 +19,12 @@ builder.Services.AddControllers(config =>
 .AddApplicationPart(typeof(Presentation.AssemblyRefence).Assembly)
 .AddNewtonsoftJson();
 
+builder.Services.Configure<ApiBehaviorOptions>(options =>
+{
+    options.SuppressModelStateInvalidFilter = true;
+});
+
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
