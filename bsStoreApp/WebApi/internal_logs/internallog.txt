@@ -127,3 +127,8 @@
 2022-11-08 12:58:21.5193 Info Message Template Auto Format enabled
 2022-11-08 12:58:21.5730 Info Adding target FileTarget(Name=logfile)
 2022-11-08 12:58:21.5945 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\nlog.config
+2022-11-09 15:20:15.3991 Info Message Template Auto Format enabled
+2022-11-09 15:20:15.4587 Info Adding target FileTarget(Name=logfile)
+2022-11-09 15:20:15.4833 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\nlog.config
+2022-11-09 15:38:48.2791 Info AppDomain Shutting down. LogFactory closing...
+2022-11-09 15:38:48.2968 Info LogFactory has been closed.
