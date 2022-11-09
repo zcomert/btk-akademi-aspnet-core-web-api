@@ -66,3 +66,7 @@
    at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
    at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
    at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-11-09 19:05:20.4536 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2022-11-09T16:05:20.4133993Z"}
+2022-11-09 19:05:28.0163 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetOneBook","Id":"4","CreateAt":"2022-11-09T16:05:28.0161577Z"}
+2022-11-09 19:05:36.1065 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"UpdateOneBook","Id":"4","CreateAt":"2022-11-09T16:05:36.1064763Z"}
+2022-11-09 19:05:59.5122 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"UpdateOneBook","Id":"4","CreateAt":"2022-11-09T16:05:59.463509Z"}
