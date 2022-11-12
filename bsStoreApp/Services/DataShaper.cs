@@ -20,12 +20,14 @@ namespace Services
         }
         public IEnumerable<ExpandoObject> ShapeData(IEnumerable<T> entities, string fieldsString)
         {
-            throw new NotImplementedException();
+            var requiredFields = GetRequiredProperties(fieldsString);
+            return FetchData(entities, requiredFields);
         }
 
         public ExpandoObject ShapeData(T entity, string fieldsString)
         {
-            throw new NotImplementedException();
+            var requiredProperties = GetRequiredProperties(fieldsString);
+            return FetchDataForEntity(entity, requiredProperties);
         }
 
         private IEnumerable<PropertyInfo> GetRequiredProperties(string fieldsString)
@@ -43,6 +45,7 @@ namespace Services
                         StringComparison.InvariantCultureIgnoreCase));
                     if (property is null)
                         continue;
+                    requiredFields.Add(property);
                 }
             }
             else
@@ -53,6 +56,30 @@ namespace Services
             return requiredFields;
         }
 
-        
+        private ExpandoObject FetchDataForEntity(T entity, 
+            IEnumerable<PropertyInfo> requiredProperties)
+        {
+            var shapedObject = new ExpandoObject();
+
+            foreach (var property in requiredProperties)
+            {
+                var objectPropertyValue = property.GetValue(entity);
+                shapedObject.TryAdd(property.Name, objectPropertyValue);
+            }
+            return shapedObject;
+        }
+
+        private IEnumerable<ExpandoObject> FetchData(IEnumerable<T> entities, 
+            IEnumerable<PropertyInfo> requiredProperties)
+        {
+            var shapedData = new List<ExpandoObject>();
+            foreach (var entity in entities)
+            {
+                var shapedObject = FetchDataForEntity(entity, requiredProperties);
+                shapedData.Add(shapedObject);
+            }
+            return shapedData;
+        }
+
     }
 }
