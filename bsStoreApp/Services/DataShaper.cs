@@ -80,6 +80,5 @@ namespace Services
             }
             return shapedData;
         }
-
     }
 }
