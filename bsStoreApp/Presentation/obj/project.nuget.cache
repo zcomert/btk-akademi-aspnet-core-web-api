@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OIld4DsS1SbojF+Z0RyKzGaz/MHwGJ6GUqWgThZG9T3IZJsoRQmyj6O2zLz7fRBX/1/1Ca/L2+G8ZlYyGlG7Kw==",
+  "dgSpecHash": "9M//LacS+2X8cPtHFZFkTTnuhZBVHgcZ2w2frXLPng33ZEfNb5VfC9jOURV40t3GWJ45S06Z08opWed7Ya9/fg==",
   "success": true,
   "projectFilePath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Presentation\\Presentation.csproj",
   "expectedPackageFiles": [
@@ -62,6 +62,7 @@
     "C:\\Users\\zafer\\.nuget\\packages\\system.io.filesystem\\4.0.1\\system.io.filesystem.4.0.1.nupkg.sha512",
     "C:\\Users\\zafer\\.nuget\\packages\\system.io.filesystem.primitives\\4.0.1\\system.io.filesystem.primitives.4.0.1.nupkg.sha512",
     "C:\\Users\\zafer\\.nuget\\packages\\system.linq\\4.1.0\\system.linq.4.1.0.nupkg.sha512",
+    "C:\\Users\\zafer\\.nuget\\packages\\system.linq.dynamic.core\\1.2.23\\system.linq.dynamic.core.1.2.23.nupkg.sha512",
     "C:\\Users\\zafer\\.nuget\\packages\\system.linq.expressions\\4.1.0\\system.linq.expressions.4.1.0.nupkg.sha512",
     "C:\\Users\\zafer\\.nuget\\packages\\system.objectmodel\\4.0.12\\system.objectmodel.4.0.12.nupkg.sha512",
     "C:\\Users\\zafer\\.nuget\\packages\\system.reflection\\4.1.0\\system.reflection.4.1.0.nupkg.sha512",

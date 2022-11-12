@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DalHp7mN6yOEG/rjsZn+ykXouXFb7L24k7QrnpIAhsajbqtJj9HW2UxyDx6mqyVbNrgudnq0RQBMCsQFL39VoA==",
+  "dgSpecHash": "E5QDj/WmA/jA/xyoYQMZW1zcLoE5FMCWBrgr6GxhjO39+HSSby64KPBy5ngkDDfSD6EKTwmnQ5D2XDJMrxZJ1g==",
   "success": true,
   "projectFilePath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Repositories\\Repositories.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\zafer\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\zafer\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\zafer\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\zafer\\.nuget\\packages\\system.linq.dynamic.core\\1.2.23\\system.linq.dynamic.core.1.2.23.nupkg.sha512",
     "C:\\Users\\zafer\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
