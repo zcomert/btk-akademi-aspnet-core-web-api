@@ -15,11 +15,11 @@ namespace Services
         private readonly Lazy<IBookService> _bookService;
         public ServiceManager(IRepositoryManager repositoryManager,
             ILoggerService logger,
-            IMapper mapper, 
-            IDataShaper<BookDto> shaper)
+            IMapper mapper,
+            IBookLinks bookLinks)
         {
             _bookService = new Lazy<IBookService>(() => 
-            new BookManager(repositoryManager, logger, mapper, shaper));
+            new BookManager(repositoryManager, logger, mapper, bookLinks));
         }
         public IBookService BookService => _bookService.Value;
     }
