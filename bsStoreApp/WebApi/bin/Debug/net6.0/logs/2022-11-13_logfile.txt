@@ -1,0 +1,4 @@
+2022-11-13 08:49:30.0688 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2022-11-13T05:49:30.0544435Z"}
+2022-11-13 08:49:43.6769 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2022-11-13T05:49:43.6768262Z"}
+2022-11-13 08:49:53.8919 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2022-11-13T05:49:53.8917988Z"}
+2022-11-13 08:50:09.2347 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2022-11-13T05:50:09.2346549Z"}
