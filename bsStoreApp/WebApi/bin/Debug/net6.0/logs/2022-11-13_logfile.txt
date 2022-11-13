@@ -76,3 +76,34 @@
 2022-11-13 20:35:58.0248 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2022-11-13T17:35:58.0248326Z"}
 2022-11-13 20:36:05.9617 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2022-11-13T17:36:05.9617173Z"}
 2022-11-13 20:36:12.1082 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2022-11-13T17:36:12.108221Z"}
+2022-11-13 20:48:15.8857 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2022-11-13T17:48:15.8611569Z"}
+2022-11-13 20:48:20.1490 ERROR Something went wrong: System.InvalidOperationException: No service for type 'Microsoft.AspNetCore.Routing.IEndpointAddressScheme`1[Microsoft.AspNetCore.Http.HttpContext]' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.AspNetCore.Routing.DefaultLinkGenerator.GetEndpoints[TAddress](TAddress address)
+   at Microsoft.AspNetCore.Routing.DefaultLinkGenerator.GetPathByAddress[TAddress](TAddress address, RouteValueDictionary values, PathString pathBase, FragmentString fragment, LinkOptions options)
+   at Services.BookLinks.CreateForBook(HttpContext httpContext, BookDto bookDto, String fields) in F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Services\BookLinks.cs:line 52
+   at Services.BookLinks.ReturnLinkedBooks(IEnumerable`1 booksDto, String fields, HttpContext httpContext, List`1 shapedBooks) in F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Services\BookLinks.cs:line 42
+   at Services.BookLinks.TryGenerateLinks(IEnumerable`1 booksDto, String fields, HttpContext httpContext) in F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Services\BookLinks.cs:line 29
+   at Services.BookManager.GetAllBooksAsync(LinkParameters linkParameters, Boolean trackChanges) in F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Services\BookManager.cs:line 63
+   at Presentation.Controllers.BooksController.GetAllBooksAsync(BookParameters bookParameters) in F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Presentation\Controllers\BooksController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-11-13 21:08:46.2493 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2022-11-13T18:08:46.2197801Z"}
+2022-11-13 21:10:32.0853 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2022-11-13T18:10:32.0556724Z"}
+2022-11-13 21:13:02.8731 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2022-11-13T18:13:02.8433953Z"}
+2022-11-13 21:13:43.8554 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2022-11-13T18:13:43.8554092Z"}
+2022-11-13 21:13:45.2480 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2022-11-13T18:13:45.2479579Z"}
+2022-11-13 21:13:59.0921 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2022-11-13T18:13:59.0434424Z"}

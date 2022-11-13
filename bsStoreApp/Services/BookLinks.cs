@@ -3,8 +3,10 @@ using Entities.LinkModels;
 using Entities.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Routing;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Net.Http.Headers;
 using Services.Contracts;
+using System.ComponentModel.Design;
 
 namespace Services
 {
@@ -13,10 +15,10 @@ namespace Services
         private readonly LinkGenerator _linkGenerator;
         private readonly IDataShaper<BookDto> _dataShaper;
 
-        public BookLinks(LinkGenerator linkGenerator, 
+        public BookLinks(IHttpContextAccessor haccess, 
             IDataShaper<BookDto> dataShaper)
         {
-            _linkGenerator = linkGenerator;
+            _linkGenerator = haccess.HttpContext.RequestServices.GetRequiredService<LinkGenerator>();
             _dataShaper = dataShaper;
         }
 
