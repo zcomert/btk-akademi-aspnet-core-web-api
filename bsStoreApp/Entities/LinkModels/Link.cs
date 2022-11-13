@@ -24,6 +24,4 @@ namespace Entities.LinkModels
             Method = method;
         }
     }
-   
-        
 }
