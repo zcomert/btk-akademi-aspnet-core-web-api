@@ -26,10 +26,12 @@ namespace WebApi.Extensions
         public static void ConfigureLoggerService(this IServiceCollection services) => 
             services.AddSingleton<ILoggerService, LoggerManager>();
 
+
         public static void ConfigureActionFilters(this IServiceCollection services)
         {
             services.AddScoped<ValidationFilterAttribute>();
             services.AddSingleton<LogFilterAttribute>();
+            services.AddScoped<ValidateMediaTypeAttribute>();
         } 
 
         public static void ConfigureCors(this IServiceCollection services)
