@@ -44,7 +44,7 @@ namespace Presentation.Controllers
                 JsonSerializer.Serialize(result.metaData));
 
             return result.linkResponse.HasLinks ?
-                Ok(result.linkResponse.LinkedEntities.Value) :
+                Ok(result.linkResponse.LinkedEntities) :
                 Ok(result.linkResponse.ShapedEntities);
         }
 
