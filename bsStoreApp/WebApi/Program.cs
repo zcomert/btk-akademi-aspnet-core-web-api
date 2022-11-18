@@ -19,7 +19,7 @@ builder.Services.AddControllers(config =>
 .AddXmlDataContractSerializerFormatters()
 .AddCustomCsvFormatter()
 .AddApplicationPart(typeof(Presentation.AssemblyRefence).Assembly);
-//.AddNewtonsoftJson();
+// .AddNewtonsoftJson()
 
 
 

@@ -49,11 +49,16 @@ namespace Services
             return new LinkResponse { HasLinks = true, LinkedEntities = bookCollection };
         }
 
-        private List<Link> CreateForBook(HttpContext httpContext, BookDto bookDto, string fields)
+        private List<Link> CreateForBook(HttpContext httpContext, 
+            BookDto bookDto, 
+            string fields)
         {
             var links = new List<Link>()
             {
-                new Link("a1","b1","c1"),
+                new Link()
+                {
+                    Href = $"/api{httpContext.GetRouteValue("controllers")}"
+                },
                 new Link("a2","b2","c2")
             };
             return links;
