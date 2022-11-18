@@ -1,3 +1,4 @@
+F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\nlog.config
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\appsettings.Development.json
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\appsettings.json
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\WebApi.exe
@@ -5,6 +6,8 @@ F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\W
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\WebApi.runtimeconfig.json
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\WebApi.dll
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\WebApi.pdb
+F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\AutoMapper.dll
+F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Humanizer.dll
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
@@ -26,12 +29,15 @@ F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\M
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Newtonsoft.Json.dll
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\NLog.dll
+F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\NLog.Extensions.Logging.dll
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\System.Drawing.Common.dll
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\System.Linq.Dynamic.Core.dll
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\System.Runtime.Caching.dll
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\System.Security.Permissions.dll
@@ -72,9 +78,3 @@ F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\r
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\WebApi.pdb
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\WebApi.genruntimeconfig.cache
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\ref\WebApi.dll
-F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\nlog.config
-F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\NLog.dll
-F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\NLog.Extensions.Logging.dll
-F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\AutoMapper.dll
-F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\System.Linq.Dynamic.Core.dll

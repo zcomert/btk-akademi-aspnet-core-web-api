@@ -15,10 +15,10 @@ namespace Services
         private readonly LinkGenerator _linkGenerator;
         private readonly IDataShaper<BookDto> _dataShaper;
 
-        public BookLinks(IHttpContextAccessor haccess, 
+        public BookLinks(LinkGenerator linkGenerator, 
             IDataShaper<BookDto> dataShaper)
         {
-            _linkGenerator = haccess.HttpContext.RequestServices.GetRequiredService<LinkGenerator>();
+            _linkGenerator = linkGenerator;
             _dataShaper = dataShaper;
         }
 
@@ -46,7 +46,20 @@ namespace Services
             }
 
             var bookCollection = new LinkCollectionWrapper<Entity>(shapedBooks);
+            CreateForBooks(httpContext,bookCollection);
             return new LinkResponse { HasLinks = true, LinkedEntities = bookCollection };
+        }
+
+        private LinkCollectionWrapper<Entity> CreateForBooks(HttpContext httpContext, 
+            LinkCollectionWrapper<Entity> bookCollectionWrapper)
+        {
+            bookCollectionWrapper.Links.Add(new Link() 
+            {
+                Href = $"/api/{httpContext.GetRouteData().Values["controller"].ToString().ToLower()}",
+                Rel = "self",
+                Method = "GET"
+            });
+            return bookCollectionWrapper;
         }
 
         private List<Link> CreateForBook(HttpContext httpContext, 
@@ -55,11 +68,19 @@ namespace Services
         {
             var links = new List<Link>()
             {
-                new Link()
-                {
-                    Href = $"/api{httpContext.GetRouteValue("controllers")}"
-                },
-                new Link("a2","b2","c2")
+               new Link()
+               { 
+                   Href = $"/api/{httpContext.GetRouteData().Values["controller"].ToString().ToLower()}" +
+                   $"/{bookDto.Id}",
+                   Rel = "self",
+                   Method = "GET"
+               },
+               new Link()
+               {
+                   Href = $"/api/{httpContext.GetRouteData().Values["controller"].ToString().ToLower()}",
+                   Rel="create",
+                   Method = "POST"
+               },
             };
             return links;
         }
@@ -84,5 +105,7 @@ namespace Services
                 .Select(b => b.Entity)
                 .ToList();
         }
+
+       
     }
 }

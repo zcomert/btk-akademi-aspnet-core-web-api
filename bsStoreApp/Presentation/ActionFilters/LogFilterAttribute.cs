@@ -25,7 +25,7 @@ namespace Presentation.ActionFilters
             {
                 ModelModel = modelName,
                 Controller = routeData.Values["controller"],
-                Action = routeData.Values["action"]
+                Action = routeData.Values["Id"]
             };
 
             if (routeData.Values.Count >= 3)
