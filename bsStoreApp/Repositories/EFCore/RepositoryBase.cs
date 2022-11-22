@@ -13,7 +13,6 @@ namespace Repositories.EFCore
         where T : class
     {
         protected readonly RepositoryContext _context;
-
         public RepositoryBase(RepositoryContext context)
         {
             _context = context;
