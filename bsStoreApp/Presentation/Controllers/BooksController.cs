@@ -26,6 +26,7 @@ namespace Presentation.Controllers
             _manager = manager;
         }
 
+        [HttpHead]
         [HttpGet(Name = "GetAllBooksAsync")]
         [ServiceFilter(typeof(ValidateMediaTypeAttribute))]
         public async Task<IActionResult> GetAllBooksAsync([FromQuery] BookParameters bookParameters)
