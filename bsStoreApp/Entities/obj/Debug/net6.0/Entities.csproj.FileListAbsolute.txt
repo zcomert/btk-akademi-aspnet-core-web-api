@@ -7,6 +7,6 @@ F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Entities\obj\Debug\net6.0
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Entities\obj\Debug\net6.0\Entities.dll
-F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Entities\obj\Debug\net6.0\ref\Entities.dll
-F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Entities\obj\Debug\net6.0\Entities.pdb
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Entities\obj\Debug\net6.0\refint\Entities.dll
+F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Entities\obj\Debug\net6.0\Entities.pdb
+F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\Entities\obj\Debug\net6.0\ref\Entities.dll

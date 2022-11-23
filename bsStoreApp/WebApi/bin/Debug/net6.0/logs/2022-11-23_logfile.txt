@@ -187,3 +187,9 @@
 2022-11-23 11:55:12.2410 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"4","Id":"4","CreateAt":"2022-11-23T08:55:12.2373425Z"}
 2022-11-23 11:56:19.9500 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":null,"Id":null,"CreateAt":"2022-11-23T08:56:19.9500267Z"}
 2022-11-23 11:56:34.0629 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":null,"Id":null,"CreateAt":"2022-11-23T08:56:34.0628879Z"}
+2022-11-23 13:09:01.5915 ERROR Something went wrong: Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/books" for actions - Presentation.Controllers.BooksController.GetAllBooksAsync (Presentation),Presentation.Controllers.BooksV2Controller.GetAllBooksAsync (Presentation). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)

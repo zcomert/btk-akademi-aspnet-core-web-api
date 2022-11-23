@@ -1,3 +1,10 @@
+F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\WebApi.csproj.AssemblyReference.cache
+F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\WebApi.AssemblyInfoInputs.cache
+F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\WebApi.AssemblyInfo.cs
+F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\WebApi.csproj.CoreCompileInputs.cache
+F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\nlog.config
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\appsettings.Development.json
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\appsettings.json
@@ -11,6 +18,7 @@ F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\A
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Humanizer.dll
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
@@ -62,13 +70,6 @@ F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\E
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Presentation.pdb
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Repositories.pdb
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Services.pdb
-F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\WebApi.csproj.AssemblyReference.cache
-F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
-F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\WebApi.AssemblyInfoInputs.cache
-F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\WebApi.AssemblyInfo.cs
-F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\WebApi.csproj.CoreCompileInputs.cache
-F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
-F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\staticwebassets.build.json
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\staticwebassets.development.json
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\scopedcss\bundle\WebApi.styles.css
@@ -78,4 +79,3 @@ F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\r
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\WebApi.pdb
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\WebApi.genruntimeconfig.cache
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\ref\WebApi.dll
-F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll

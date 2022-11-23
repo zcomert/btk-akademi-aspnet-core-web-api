@@ -105,6 +105,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Marvin.Cache.Headers": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.AspNetCore.JsonPatch": {
               "target": "Package",
               "version": "[6.0.10, )"
