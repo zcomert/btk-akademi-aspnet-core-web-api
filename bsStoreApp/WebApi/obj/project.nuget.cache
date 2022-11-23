@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "t2tVi1kqyKItHCFdPSD4zYkirhbxMZtrwimGE38/K/KbuQL9ig/+CSBg33u2LYbl3TNIHXA2Mtxlmb/W02zveA==",
+  "dgSpecHash": "hJ2nHKM7zhjPckoL2VtTmIK5ar+B3QlM/LTgrMCotbara6mtkWC3spoO8c5piBVU+u+dG/OCjdcvbE7K9BkD6g==",
   "success": true,
   "projectFilePath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\zafer\\.nuget\\packages\\aspnetcoreratelimit\\4.0.1\\aspnetcoreratelimit.4.0.1.nupkg.sha512",
     "C:\\Users\\zafer\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\zafer\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\zafer\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

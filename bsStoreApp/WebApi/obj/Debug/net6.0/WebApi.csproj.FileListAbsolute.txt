@@ -80,3 +80,4 @@ F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\W
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\WebApi.genruntimeconfig.cache
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\ref\WebApi.dll
 F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Marvin.Cache.Headers.dll
+F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\AspNetCoreRateLimit.dll
