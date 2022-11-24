@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Entities.DataTransferObjects;
+using Entities.Exceptions;
 using Entities.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
@@ -32,12 +33,27 @@ namespace Services
             _configuration = configuration;
         }
 
-        public async Task<string> CreateToken()
+        public async Task<TokenDto> CreateToken(bool populateExp)
         {
             var signinCredentials = GetSiginCredentials();
             var claims = await GetClaims();
             var tokenOptions = GenerateTokenOptions(signinCredentials, claims);
-            return new JwtSecurityTokenHandler().WriteToken(tokenOptions);
+
+            var refreshToken = GenerateRefreshToken();
+            _user.RefreshToken = refreshToken;
+
+            if (populateExp)
+                _user.RefreshTokenExpiryTime = DateTime.Now.AddDays(7);
+
+            await _userManager.UpdateAsync(_user);
+            
+            var accessToken =  new JwtSecurityTokenHandler().WriteToken(tokenOptions);
+
+            return new TokenDto()
+            {
+                AccessToken = accessToken,
+                RefreshToken = refreshToken
+            };
         }
 
         public async Task<IdentityResult> RegisterUser(UserForRegistrationDto userForRegistrationDto)
@@ -145,6 +161,21 @@ namespace Services
             return principal;
         }
 
+        public async Task<TokenDto> RefreshToken(TokenDto tokenDto)
+        {
+            var principal = GetPrincipalFromExpiredToken(tokenDto.AccessToken);
 
+            var user = await _userManager.FindByNameAsync(principal.Identity.Name);
+            
+            if(user is null || 
+                user.RefreshToken!=tokenDto.RefreshToken || 
+                user.RefreshTokenExpiryTime <= DateTime.Now)
+            {
+                throw new RefreshTokenBadRequextException();
+            }
+
+            _user = user;
+            return await CreateToken(populateExp:false);
+        }
     }
 }
