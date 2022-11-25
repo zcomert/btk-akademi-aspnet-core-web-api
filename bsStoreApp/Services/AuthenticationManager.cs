@@ -48,7 +48,6 @@ namespace Services
             await _userManager.UpdateAsync(_user);
             
             var accessToken =  new JwtSecurityTokenHandler().WriteToken(tokenOptions);
-
             return new TokenDto()
             {
                 AccessToken = accessToken,
@@ -133,7 +132,7 @@ namespace Services
         {
             var jwtSettings = _configuration.GetSection("JwtSettings");
             var secretKey = jwtSettings["secretKey"];
-            
+
             var tokenValidationParameters = new TokenValidationParameters
             {
                 ValidateIssuer = true,
@@ -152,30 +151,27 @@ namespace Services
                 out securityToken);
 
             var jwtSecurityToken = securityToken as JwtSecurityToken;
-            if (jwtSecurityToken is null || 
-                !jwtSecurityToken.Header.Alg.Equals(SecurityAlgorithms.HmacSha256,StringComparison.InvariantCultureIgnoreCase))
+            if(jwtSecurityToken is null ||
+                !jwtSecurityToken.Header.Alg.Equals(SecurityAlgorithms.HmacSha256,
+                StringComparison.InvariantCultureIgnoreCase))
             {
                 throw new SecurityTokenException("Invalid token.");
             }
-
             return principal;
         }
 
         public async Task<TokenDto> RefreshToken(TokenDto tokenDto)
         {
             var principal = GetPrincipalFromExpiredToken(tokenDto.AccessToken);
-
             var user = await _userManager.FindByNameAsync(principal.Identity.Name);
-            
-            if(user is null || 
-                user.RefreshToken!=tokenDto.RefreshToken || 
+
+            if (user is null ||
+                user.RefreshToken != tokenDto.RefreshToken ||
                 user.RefreshTokenExpiryTime <= DateTime.Now)
-            {
-                throw new RefreshTokenBadRequextException();
-            }
+                throw new RefreshTokenBadRequestException();
 
             _user = user;
-            return await CreateToken(populateExp:false);
+            return await CreateToken(populateExp: false);
         }
     }
 }
