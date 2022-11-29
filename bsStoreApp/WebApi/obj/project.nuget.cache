@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fspr+x1AH+6khBQcJO/levdzb1EJOk+x1rHLjzSmDMdTuI7plLBjO7RCcThZQvfhojZJ34KdbERIZxUou/U9MQ==",
+  "dgSpecHash": "ZKJJoiwppj+8XREiYkY7mS4Uljwh2Vo9Jx91qVNzX3hC2+IVR2lQwJTKm8eJ28IcDq0nEsjXYgwC/frMqaQtpA==",
   "success": true,
-  "projectFilePath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\WebApi\\WebApi.csproj",
+  "projectFilePath": "C:\\Users\\zafer\\Videos\\App\\bsStoreApp\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zafer\\.nuget\\packages\\aspnetcoreratelimit\\4.0.1\\aspnetcoreratelimit.4.0.1.nupkg.sha512",
     "C:\\Users\\zafer\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",

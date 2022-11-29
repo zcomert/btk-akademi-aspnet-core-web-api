@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tnuNOISja6ZkoQJ198zySNNqFYN6NhGl3SZltoKvSEhTJbyR51MylvSEnANejIyIyl+wFKjTiIZxzmiEMhThGQ==",
+  "dgSpecHash": "BECTIpj2hII0coOy0Z6p16ekQAjoywsUX1ZaVMgOlGFxbrH+wxqhAuZ4MM6ew98mNnEDCkHKk/7yBXqiAXiDbQ==",
   "success": true,
-  "projectFilePath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Presentation\\Presentation.csproj",
+  "projectFilePath": "C:\\Users\\zafer\\Videos\\App\\bsStoreApp\\Presentation\\Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zafer\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\zafer\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

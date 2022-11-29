@@ -1127,11 +1127,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Repositories\\Repositories.csproj",
+      "projectUniqueName": "C:\\Users\\zafer\\Videos\\App\\bsStoreApp\\Repositories\\Repositories.csproj",
       "projectName": "Repositories",
-      "projectPath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Repositories\\Repositories.csproj",
+      "projectPath": "C:\\Users\\zafer\\Videos\\App\\bsStoreApp\\Repositories\\Repositories.csproj",
       "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
-      "outputPath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Repositories\\obj\\",
+      "outputPath": "C:\\Users\\zafer\\Videos\\App\\bsStoreApp\\Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1148,8 +1148,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Entities\\Entities.csproj": {
-              "projectPath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Entities\\Entities.csproj"
+            "C:\\Users\\zafer\\Videos\\App\\bsStoreApp\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\zafer\\Videos\\App\\bsStoreApp\\Entities\\Entities.csproj"
             }
           }
         }

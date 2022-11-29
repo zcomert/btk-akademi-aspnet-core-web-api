@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oIBhPlyHADMpfRhZbIJLMu3fo0BotFqkcxRL9pHIOU7FGLy439dKwADwz/q4WpERaLao1/ORd7Rhdu83jbtXCQ==",
+  "dgSpecHash": "AvN2hUeh3n4LJv/HlbbI0uSklD3gb/My1SUOI/ecWoSoZ48omu20+0bNMv1THJD8xwGu2dKL3zemfuIax0RtZg==",
   "success": true,
-  "projectFilePath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Repositories\\Repositories.csproj",
+  "projectFilePath": "C:\\Users\\zafer\\Videos\\App\\bsStoreApp\\Repositories\\Repositories.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zafer\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.0\\microsoft.aspnetcore.cryptography.internal.6.0.0.nupkg.sha512",
     "C:\\Users\\zafer\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.0\\microsoft.aspnetcore.cryptography.keyderivation.6.0.0.nupkg.sha512",
