@@ -16,14 +16,15 @@ builder.Services.AddControllers(config =>
 {
     config.RespectBrowserAcceptHeader = true;
     config.ReturnHttpNotAcceptable = true;
-    config.CacheProfiles.Add("5mins", new CacheProfile() { Duration = 300});
+    config.CacheProfiles.Add("5mins", new CacheProfile() { Duration = 300 });
 })
 .AddXmlDataContractSerializerFormatters()
 .AddCustomCsvFormatter()
-.AddApplicationPart(typeof(Presentation.AssemblyRefence).Assembly);
-// .AddNewtonsoftJson()
-
-
+.AddApplicationPart(typeof(Presentation.AssemblyRefence).Assembly)
+.AddNewtonsoftJson(opt => 
+    opt.SerializerSettings.ReferenceLoopHandling = 
+    Newtonsoft.Json.ReferenceLoopHandling.Ignore
+);
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {

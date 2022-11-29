@@ -716,3 +716,153 @@
 2022-11-25 13:50:34.5052 Info Message Template Auto Format enabled
 2022-11-25 13:50:34.6305 Info Adding target FileTarget(Name=logfile)
 2022-11-25 13:50:34.6599 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=F:\Courses\AspDotnetCoreWebApi\Applications\bsStoreApp\WebApi\nlog.config
+2022-11-29 12:26:21.6316 Info Message Template Auto Format enabled
+2022-11-29 12:26:21.7048 Info Adding target FileTarget(Name=logfile)
+2022-11-29 12:26:21.7268 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 12:26:22.7603 Info AppDomain Shutting down. LogFactory closing...
+2022-11-29 12:26:22.7908 Info LogFactory has been closed.
+2022-11-29 12:26:25.7621 Info Message Template Auto Format enabled
+2022-11-29 12:26:25.8100 Info Adding target FileTarget(Name=logfile)
+2022-11-29 12:26:25.8541 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 12:26:28.8823 Info AppDomain Shutting down. LogFactory closing...
+2022-11-29 12:26:28.8974 Info LogFactory has been closed.
+2022-11-29 12:37:59.0869 Info Message Template Auto Format enabled
+2022-11-29 12:37:59.1471 Info Adding target FileTarget(Name=logfile)
+2022-11-29 12:37:59.1675 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 12:38:00.2160 Info AppDomain Shutting down. LogFactory closing...
+2022-11-29 12:38:00.2491 Info LogFactory has been closed.
+2022-11-29 12:38:03.4685 Info Message Template Auto Format enabled
+2022-11-29 12:38:03.5175 Info Adding target FileTarget(Name=logfile)
+2022-11-29 12:38:03.5382 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 12:38:06.1800 Info AppDomain Shutting down. LogFactory closing...
+2022-11-29 12:38:06.2078 Info LogFactory has been closed.
+2022-11-29 12:38:24.2537 Info Message Template Auto Format enabled
+2022-11-29 12:38:24.3020 Info Adding target FileTarget(Name=logfile)
+2022-11-29 12:38:24.3224 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 12:38:25.4932 Info AppDomain Shutting down. LogFactory closing...
+2022-11-29 12:38:25.5232 Info LogFactory has been closed.
+2022-11-29 12:39:15.4080 Info Message Template Auto Format enabled
+2022-11-29 12:39:15.4619 Info Adding target FileTarget(Name=logfile)
+2022-11-29 12:39:15.4837 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 12:39:17.5546 Info AppDomain Shutting down. LogFactory closing...
+2022-11-29 12:39:17.5787 Info LogFactory has been closed.
+2022-11-29 13:15:48.1078 Info Message Template Auto Format enabled
+2022-11-29 13:15:48.2797 Info Adding target FileTarget(Name=logfile)
+2022-11-29 13:15:48.3111 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 13:25:37.6861 Info Message Template Auto Format enabled
+2022-11-29 13:25:37.8045 Info Adding target FileTarget(Name=logfile)
+2022-11-29 13:25:37.8389 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 13:40:54.1827 Info Message Template Auto Format enabled
+2022-11-29 13:40:54.2465 Info Adding target FileTarget(Name=logfile)
+2022-11-29 13:40:54.2684 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 13:40:55.7792 Info AppDomain Shutting down. LogFactory closing...
+2022-11-29 13:40:55.7966 Info LogFactory has been closed.
+2022-11-29 13:41:20.3323 Info Message Template Auto Format enabled
+2022-11-29 13:41:20.3916 Info Adding target FileTarget(Name=logfile)
+2022-11-29 13:41:20.4134 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 13:41:21.9845 Info AppDomain Shutting down. LogFactory closing...
+2022-11-29 13:41:22.0122 Info LogFactory has been closed.
+2022-11-29 14:21:16.9006 Info Message Template Auto Format enabled
+2022-11-29 14:21:17.0139 Info Adding target FileTarget(Name=logfile)
+2022-11-29 14:21:17.0473 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 14:24:23.1535 Info Message Template Auto Format enabled
+2022-11-29 14:24:23.2822 Info Adding target FileTarget(Name=logfile)
+2022-11-29 14:24:23.3133 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 14:25:47.4897 Info Message Template Auto Format enabled
+2022-11-29 14:25:47.6038 Info Adding target FileTarget(Name=logfile)
+2022-11-29 14:25:47.6384 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 14:29:04.9310 Info Message Template Auto Format enabled
+2022-11-29 14:29:05.0452 Info Adding target FileTarget(Name=logfile)
+2022-11-29 14:29:05.0754 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 14:32:03.6451 Info Message Template Auto Format enabled
+2022-11-29 14:32:03.7517 Info Adding target FileTarget(Name=logfile)
+2022-11-29 14:32:03.7816 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 14:32:35.0014 Info Message Template Auto Format enabled
+2022-11-29 14:32:35.1210 Info Adding target FileTarget(Name=logfile)
+2022-11-29 14:32:35.1509 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 14:33:53.1950 Info Message Template Auto Format enabled
+2022-11-29 14:33:53.3313 Info Adding target FileTarget(Name=logfile)
+2022-11-29 14:33:53.3629 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 14:35:19.6518 Info Message Template Auto Format enabled
+2022-11-29 14:35:19.7605 Info Adding target FileTarget(Name=logfile)
+2022-11-29 14:35:19.7913 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 14:45:40.5870 Info Message Template Auto Format enabled
+2022-11-29 14:45:40.6970 Info Adding target FileTarget(Name=logfile)
+2022-11-29 14:45:40.7269 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 14:46:01.7839 Info Message Template Auto Format enabled
+2022-11-29 14:46:01.8901 Info Adding target FileTarget(Name=logfile)
+2022-11-29 14:46:01.9262 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 14:47:49.9158 Info Message Template Auto Format enabled
+2022-11-29 14:47:50.0389 Info Adding target FileTarget(Name=logfile)
+2022-11-29 14:47:50.0694 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 14:48:27.8497 Info Message Template Auto Format enabled
+2022-11-29 14:48:27.8987 Info Adding target FileTarget(Name=logfile)
+2022-11-29 14:48:27.9193 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 14:48:28.8622 Info AppDomain Shutting down. LogFactory closing...
+2022-11-29 14:48:28.8904 Info LogFactory has been closed.
+2022-11-29 14:48:30.9026 Info Message Template Auto Format enabled
+2022-11-29 14:48:30.9509 Info Adding target FileTarget(Name=logfile)
+2022-11-29 14:48:30.9713 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 14:48:35.3095 Info AppDomain Shutting down. LogFactory closing...
+2022-11-29 14:48:35.3396 Info LogFactory has been closed.
+2022-11-29 14:48:43.6227 Info Message Template Auto Format enabled
+2022-11-29 14:48:43.6725 Info Adding target FileTarget(Name=logfile)
+2022-11-29 14:48:43.6933 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 14:48:44.9532 Info AppDomain Shutting down. LogFactory closing...
+2022-11-29 14:48:44.9783 Info LogFactory has been closed.
+2022-11-29 14:48:51.8879 Info Message Template Auto Format enabled
+2022-11-29 14:48:51.9377 Info Adding target FileTarget(Name=logfile)
+2022-11-29 14:48:51.9581 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 14:48:53.8121 Info AppDomain Shutting down. LogFactory closing...
+2022-11-29 14:48:53.8399 Info LogFactory has been closed.
+2022-11-29 14:49:35.4090 Info Message Template Auto Format enabled
+2022-11-29 14:49:35.5298 Info Adding target FileTarget(Name=logfile)
+2022-11-29 14:49:35.5626 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 14:50:54.0851 Info Message Template Auto Format enabled
+2022-11-29 14:50:54.1958 Info Adding target FileTarget(Name=logfile)
+2022-11-29 14:50:54.2291 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 15:03:42.5568 Info Message Template Auto Format enabled
+2022-11-29 15:03:42.6665 Info Adding target FileTarget(Name=logfile)
+2022-11-29 15:03:42.6990 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 15:05:08.4778 Info Message Template Auto Format enabled
+2022-11-29 15:05:08.5875 Info Adding target FileTarget(Name=logfile)
+2022-11-29 15:05:08.6177 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 15:05:39.3869 Info Message Template Auto Format enabled
+2022-11-29 15:05:39.5002 Info Adding target FileTarget(Name=logfile)
+2022-11-29 15:05:39.5292 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 15:06:05.7555 Info Message Template Auto Format enabled
+2022-11-29 15:06:05.8706 Info Adding target FileTarget(Name=logfile)
+2022-11-29 15:06:05.9030 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 15:08:53.5536 Info Message Template Auto Format enabled
+2022-11-29 15:08:53.6854 Info Adding target FileTarget(Name=logfile)
+2022-11-29 15:08:53.7187 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 15:31:06.7219 Info Message Template Auto Format enabled
+2022-11-29 15:31:06.8456 Info Adding target FileTarget(Name=logfile)
+2022-11-29 15:31:06.8777 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 15:32:28.1922 Info Message Template Auto Format enabled
+2022-11-29 15:32:28.3061 Info Adding target FileTarget(Name=logfile)
+2022-11-29 15:32:28.3455 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 15:37:16.2775 Info Message Template Auto Format enabled
+2022-11-29 15:37:16.3910 Info Adding target FileTarget(Name=logfile)
+2022-11-29 15:37:16.4200 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 21:14:44.0137 Info Message Template Auto Format enabled
+2022-11-29 21:14:44.1373 Info Adding target FileTarget(Name=logfile)
+2022-11-29 21:14:44.1686 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 21:18:32.3653 Info Message Template Auto Format enabled
+2022-11-29 21:18:32.4734 Info Adding target FileTarget(Name=logfile)
+2022-11-29 21:18:32.5021 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 21:20:42.2485 Info Message Template Auto Format enabled
+2022-11-29 21:20:42.3660 Info Adding target FileTarget(Name=logfile)
+2022-11-29 21:20:42.3951 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 21:29:14.0042 Info Message Template Auto Format enabled
+2022-11-29 21:29:14.1099 Info Adding target FileTarget(Name=logfile)
+2022-11-29 21:29:14.1393 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 21:30:33.2931 Info Message Template Auto Format enabled
+2022-11-29 21:30:33.3942 Info Adding target FileTarget(Name=logfile)
+2022-11-29 21:30:33.4411 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 21:37:07.4549 Info Message Template Auto Format enabled
+2022-11-29 21:37:07.5731 Info Adding target FileTarget(Name=logfile)
+2022-11-29 21:37:07.6083 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
+2022-11-29 22:06:23.6988 Info Message Template Auto Format enabled
+2022-11-29 22:06:23.7504 Info Adding target FileTarget(Name=logfile)
+2022-11-29 22:06:23.7715 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\zafer\Videos\App\bsStoreApp\WebApi\nlog.config
