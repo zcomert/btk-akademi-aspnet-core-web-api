@@ -13,9 +13,13 @@ ASP.NET Core Web API eğitiminin içeriğini oldukça zengin tutarken; eğitimin
 BTK Akademi işbirliği çerçevesinde sizlere ulaştırdığımız bu eğitimin; kişisel gelişiminize ve kariyerinize katkı sağlamasını umuyor, şimdiden hepinize başarılar diliyorum.
 
 Doç. Dr. Zafer CÖMERT
+
 Samsun Üniversitesi
+
 Mühendislik Fakültesi
+
 Yazılım Mühendisliği Bölümü
+
 Öğretim Üyesi
 
 
