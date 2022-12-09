@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e5rbBy+JJw9R2MIukQcKc0ggwki07gaG/7He4tfZKXJnciWXKNRFkQAhGTnvG7lr1nV37a6PeIAKCbzjFbE8fA==",
+  "dgSpecHash": "/AteuNbhDi4ezDlRY0coUcNAHR7UepuzM4LwwzPe41USCi5eIBg8t/i0L98NaQohcqTcLUAP1brJRVaxmyzDIQ==",
   "success": true,
-  "projectFilePath": "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\HelloWebAPi\\HelloWebAPi.csproj",
+  "projectFilePath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\basics\\HelloWebAPi\\HelloWebAPi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zafer\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\zafer\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",

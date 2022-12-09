@@ -1,31 +1,17 @@
 {
   "format": 1,
   "restore": {
-<<<<<<<< HEAD:bsStoreApp/Entities/obj/Entities.csproj.nuget.dgspec.json
-    "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Entities\\Entities.csproj": {}
+    "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\basics\\hello_world_cli\\hello_world_cli.csproj": {}
   },
   "projects": {
-    "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Entities\\Entities.csproj": {
+    "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\basics\\hello_world_cli\\hello_world_cli.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Entities\\Entities.csproj",
-        "projectName": "Entities",
-        "projectPath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
-        "outputPath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Entities\\obj\\",
-========
-    "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\hello_world_cli\\hello_world_cli.csproj": {}
-  },
-  "projects": {
-    "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\hello_world_cli\\hello_world_cli.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\hello_world_cli\\hello_world_cli.csproj",
+        "projectUniqueName": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\basics\\hello_world_cli\\hello_world_cli.csproj",
         "projectName": "hello_world_cli",
-        "projectPath": "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\hello_world_cli\\hello_world_cli.csproj",
+        "projectPath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\basics\\hello_world_cli\\hello_world_cli.csproj",
         "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
-        "outputPath": "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\hello_world_cli\\obj\\",
->>>>>>>> ch_02_aspnet_core:basics/hello_world_cli/obj/hello_world_cli.csproj.nuget.dgspec.json
+        "outputPath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\basics\\hello_world_cli\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,13 +40,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Microsoft.AspNetCore.Mvc.Abstractions": {
-              "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[6.2.3, )"
             }
           },
           "imports": [
@@ -75,6 +57,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
