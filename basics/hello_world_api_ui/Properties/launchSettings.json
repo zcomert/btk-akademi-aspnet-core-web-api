@@ -1,0 +1,44 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+<<<<<<<< HEAD:bookDemo/Properties/launchSettings.json
+      "applicationUrl": "http://localhost:51727",
+      "sslPort": 44398
+    }
+  },
+  "profiles": {
+    "bookDemo": {
+========
+      "applicationUrl": "http://localhost:63283",
+      "sslPort": 44395
+    }
+  },
+  "profiles": {
+    "hello_world_api_ui": {
+>>>>>>>> ch_02_aspnet_core:basics/hello_world_api_ui/Properties/launchSettings.json
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+<<<<<<<< HEAD:bookDemo/Properties/launchSettings.json
+      "applicationUrl": "https://localhost:7201;http://localhost:5158",
+========
+      "applicationUrl": "https://localhost:7289;http://localhost:5289",
+>>>>>>>> ch_02_aspnet_core:basics/hello_world_api_ui/Properties/launchSettings.json
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

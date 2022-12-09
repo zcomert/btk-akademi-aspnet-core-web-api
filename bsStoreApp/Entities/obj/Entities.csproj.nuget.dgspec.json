@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+<<<<<<<< HEAD:bsStoreApp/Entities/obj/Entities.csproj.nuget.dgspec.json
+    "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Entities\\Entities.csproj": {}
+  },
+  "projects": {
+    "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
+        "outputPath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Entities\\obj\\",
+========
+    "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\hello_world_cli\\hello_world_cli.csproj": {}
+  },
+  "projects": {
+    "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\hello_world_cli\\hello_world_cli.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\hello_world_cli\\hello_world_cli.csproj",
+        "projectName": "hello_world_cli",
+        "projectPath": "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\hello_world_cli\\hello_world_cli.csproj",
+        "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
+        "outputPath": "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\hello_world_cli\\obj\\",
+>>>>>>>> ch_02_aspnet_core:basics/hello_world_cli/obj/hello_world_cli.csproj.nuget.dgspec.json
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
