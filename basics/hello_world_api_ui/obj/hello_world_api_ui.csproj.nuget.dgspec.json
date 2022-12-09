@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\hello_world_api_ui\\hello_world_api_ui.csproj": {}
+    "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\basics\\hello_world_api_ui\\hello_world_api_ui.csproj": {}
   },
   "projects": {
-    "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\hello_world_api_ui\\hello_world_api_ui.csproj": {
+    "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\basics\\hello_world_api_ui\\hello_world_api_ui.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\hello_world_api_ui\\hello_world_api_ui.csproj",
+        "projectUniqueName": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\basics\\hello_world_api_ui\\hello_world_api_ui.csproj",
         "projectName": "hello_world_api_ui",
-        "projectPath": "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\hello_world_api_ui\\hello_world_api_ui.csproj",
+        "projectPath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\basics\\hello_world_api_ui\\hello_world_api_ui.csproj",
         "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
-        "outputPath": "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\hello_world_api_ui\\obj\\",
+        "outputPath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\basics\\hello_world_api_ui\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\HelloWebAPi\\HelloWebAPi.csproj": {}
+    "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\basics\\HelloWebAPi\\HelloWebAPi.csproj": {}
   },
   "projects": {
-    "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\HelloWebAPi\\HelloWebAPi.csproj": {
+    "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\basics\\HelloWebAPi\\HelloWebAPi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\HelloWebAPi\\HelloWebAPi.csproj",
+        "projectUniqueName": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\basics\\HelloWebAPi\\HelloWebAPi.csproj",
         "projectName": "HelloWebAPi",
-        "projectPath": "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\HelloWebAPi\\HelloWebAPi.csproj",
+        "projectPath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\basics\\HelloWebAPi\\HelloWebAPi.csproj",
         "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
-        "outputPath": "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\HelloWebAPi\\obj\\",
+        "outputPath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\basics\\HelloWebAPi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",

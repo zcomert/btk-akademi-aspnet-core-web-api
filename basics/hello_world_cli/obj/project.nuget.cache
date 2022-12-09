@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o/UMBhUv/q6LTF1Ku4KPxXvLoim/T+1SRaSV3Q65SKB4Hb8I9alGSW451B8ct94aGAC5gNTckXPpQz0U5bvYuA==",
+  "dgSpecHash": "z3JUovTXhlQ0wpluXKXX3pHo6yhlzBrCqrLyPNz6HCClwaVzkeYBOQRm2H/odxJEF+Xf31FAzvu4t5W2fLYWFg==",
   "success": true,
-  "projectFilePath": "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\hello_world_cli\\hello_world_cli.csproj",
+  "projectFilePath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\basics\\hello_world_cli\\hello_world_cli.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zafer\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\zafer\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

@@ -229,11 +229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\hello_world_cli\\hello_world_cli.csproj",
+      "projectUniqueName": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\basics\\hello_world_cli\\hello_world_cli.csproj",
       "projectName": "hello_world_cli",
-      "projectPath": "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\hello_world_cli\\hello_world_cli.csproj",
+      "projectPath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\basics\\hello_world_cli\\hello_world_cli.csproj",
       "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
-      "outputPath": "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\hello_world_cli\\obj\\",
+      "outputPath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\basics\\hello_world_cli\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
