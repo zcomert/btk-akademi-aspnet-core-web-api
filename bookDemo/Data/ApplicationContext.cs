@@ -1,5 +1,4 @@
 ﻿using bookDemo.Models;
-
 namespace bookDemo.Data
 {
     public static class ApplicationContext
