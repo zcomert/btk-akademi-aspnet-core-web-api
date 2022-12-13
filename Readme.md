@@ -11,7 +11,7 @@ Application Programming Interface (API)'ler, tümleşik (integrated) web uygulam
 ASP.NET Core Web API eğitiminin içeriğini oldukça zengin tutarken; eğitimin ise olabildiğince basit ve anlaşılabilir olmasına özen gösterdik. 
 
 BTK Akademi işbirliği çerçevesinde sizlere ulaştırdığımız bu eğitimin; kişisel gelişiminize ve kariyerinize katkı sağlamasını umuyor, şimdiden hepinize başarılar diliyorum.
-
+- - -
 Doç. Dr. Zafer CÖMERT
 Samsun Üniversitesi
 Mühendislik Fakültesi
@@ -19,7 +19,7 @@ Yazılım Mühendisliği Bölümü
 Öğretim Üyesi
 
 
-### Eğitim İçerik 
+## Eğitim İçeriği 
 1. API, HTTP, REST, RESTful
 2. ASP.NET Core 
 3. Logging
@@ -49,7 +49,7 @@ Yazılım Mühendisliği Bölümü
 27. API Dokümantasyonu (*API Documentation*)
 28. Bonus
 
-### Repodan Faydalanmak 
+## Repodan Faydalanmak 
 Repoyu bilgisayarınıza indirmek için git kullanabilirsiniz. 
 
 > git clone https://github.com/zcomert/BTK-Akademi-ASPNET-Core-Web-Api.git
