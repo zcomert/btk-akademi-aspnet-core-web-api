@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<<< HEAD:bsStoreApp/Entities/obj/Entities.csproj.nuget.dgspec.json
     "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Entities\\Entities.csproj": {}
   },
   "projects": {
@@ -13,19 +12,6 @@
         "projectPath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
         "outputPath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Entities\\obj\\",
-========
-    "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\hello_world_cli\\hello_world_cli.csproj": {}
-  },
-  "projects": {
-    "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\hello_world_cli\\hello_world_cli.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\hello_world_cli\\hello_world_cli.csproj",
-        "projectName": "hello_world_cli",
-        "projectPath": "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\hello_world_cli\\hello_world_cli.csproj",
-        "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
-        "outputPath": "E:\\Courses\\AspNetCoreWebApi\\Applications\\basics\\hello_world_cli\\obj\\",
->>>>>>>> ch_02_aspnet_core:basics/hello_world_cli/obj/hello_world_cli.csproj.nuget.dgspec.json
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",

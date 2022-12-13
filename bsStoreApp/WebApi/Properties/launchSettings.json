@@ -4,13 +4,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-<<<<<<<< HEAD:bsStoreApp/WebApi/Properties/launchSettings.json
-      "applicationUrl": "http://localhost:48939",
-      "sslPort": 44373
-========
       "applicationUrl": "http://localhost:25730",
       "sslPort": 44300
->>>>>>>> ch_02_aspnet_core:basics/hello_world_cli/Properties/launchSettings.json
     }
   },
   "profiles": {
@@ -19,11 +14,7 @@
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "swagger",
-<<<<<<<< HEAD:bsStoreApp/WebApi/Properties/launchSettings.json
       "applicationUrl": "https://localhost:7222;http://localhost:5222",
-========
-      "applicationUrl": "https://localhost:7075;http://localhost:5126",
->>>>>>>> ch_02_aspnet_core:basics/hello_world_cli/Properties/launchSettings.json
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
