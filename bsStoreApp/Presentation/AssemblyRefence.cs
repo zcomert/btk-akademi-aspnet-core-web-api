@@ -1,6 +1,6 @@
 ﻿namespace Presentation
 {
-    public class AssemblyRefence
+    public class AssemblyReference
     {
 
     }
