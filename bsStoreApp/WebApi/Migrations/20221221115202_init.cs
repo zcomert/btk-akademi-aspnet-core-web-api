@@ -197,9 +197,9 @@ namespace WebApi.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "59657634-7af5-4e22-99a9-49f0c093760c", "1d200822-bcfe-432d-8205-aa7844818c5a", "User", "USER" },
-                    { "84982d3a-f09f-4bde-8957-a181c30c4f80", "dde0000a-ed39-4b0e-a00b-0582b882d0c3", "Editor", "EDITOR" },
-                    { "d8af454a-1a99-4b70-be38-3770dfb8f4af", "dee72aa3-cea1-4b16-b2fd-456de1d556a9", "Admin", "ADMIN" }
+                    { "1b4fba81-a9ec-40a9-9c10-1d18aa86a78e", "97ba81ba-4b68-4584-b7aa-1760300e10da", "Admin", "ADMIN" },
+                    { "7969520f-c630-4666-a031-232bfc6236b8", "7e99ac80-212b-436c-93b2-e4f5fe03bf39", "Editor", "EDITOR" },
+                    { "f9da6bdb-f9ea-4705-abed-8db64b63fa05", "5933da50-d32a-40da-a484-48101099c8da", "User", "USER" }
                 });
 
             migrationBuilder.InsertData(

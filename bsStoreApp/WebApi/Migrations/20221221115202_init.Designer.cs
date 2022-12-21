@@ -12,7 +12,7 @@ using Repositories.EFCore;
 namespace WebApi.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    [Migration("20221129114844_init")]
+    [Migration("20221221115202_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -212,22 +212,22 @@ namespace WebApi.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "59657634-7af5-4e22-99a9-49f0c093760c",
-                            ConcurrencyStamp = "1d200822-bcfe-432d-8205-aa7844818c5a",
+                            Id = "f9da6bdb-f9ea-4705-abed-8db64b63fa05",
+                            ConcurrencyStamp = "5933da50-d32a-40da-a484-48101099c8da",
                             Name = "User",
                             NormalizedName = "USER"
                         },
                         new
                         {
-                            Id = "84982d3a-f09f-4bde-8957-a181c30c4f80",
-                            ConcurrencyStamp = "dde0000a-ed39-4b0e-a00b-0582b882d0c3",
+                            Id = "7969520f-c630-4666-a031-232bfc6236b8",
+                            ConcurrencyStamp = "7e99ac80-212b-436c-93b2-e4f5fe03bf39",
                             Name = "Editor",
                             NormalizedName = "EDITOR"
                         },
                         new
                         {
-                            Id = "d8af454a-1a99-4b70-be38-3770dfb8f4af",
-                            ConcurrencyStamp = "dee72aa3-cea1-4b16-b2fd-456de1d556a9",
+                            Id = "1b4fba81-a9ec-40a9-9c10-1d18aa86a78e",
+                            ConcurrencyStamp = "97ba81ba-4b68-4584-b7aa-1760300e10da",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });
@@ -342,7 +342,7 @@ namespace WebApi.Migrations
             modelBuilder.Entity("Entities.Models.Book", b =>
                 {
                     b.HasOne("Entities.Models.Category", "Category")
-                        .WithMany("Books")
+                        .WithMany()
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -399,11 +399,6 @@ namespace WebApi.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("Entities.Models.Category", b =>
-                {
-                    b.Navigation("Books");
                 });
 #pragma warning restore 612, 618
         }
