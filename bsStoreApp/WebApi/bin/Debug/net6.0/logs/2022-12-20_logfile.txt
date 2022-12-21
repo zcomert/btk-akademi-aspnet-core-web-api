@@ -1,0 +1,3 @@
+2022-12-20 23:15:17.2498 WARN ValidateUser : Authentication failed. Wrong username or password.
+2022-12-20 23:15:33.5877 WARN ValidateUser : Authentication failed. Wrong username or password.
+2022-12-20 23:16:38.0522 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":null,"Id":null,"CreateAt":"2022-12-20T20:16:38.048265Z"}

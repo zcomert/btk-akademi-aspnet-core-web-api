@@ -89,9 +89,6 @@ namespace Services
         public async Task<BookDto> GetOneBookByIdAsync(int id, bool trackChanges)
         {
             var book =  await GetOneBookByIdAndCheckExists(id,trackChanges);
-            
-            if (book is null)
-                throw new BookNotFoundException(id);
             return _mapper.Map<BookDto>(book);
         }
 

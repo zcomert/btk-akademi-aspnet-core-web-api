@@ -23,7 +23,7 @@ namespace Presentation.ActionFilters
         {
             var logDetails = new LogDetails()
             {
-                ModelModel = modelName,
+                ModelName = modelName,
                 Controller = routeData.Values["controller"],
                 Action = routeData.Values["Id"]
             };
