@@ -35,7 +35,7 @@ namespace Services
 
         public async Task<TokenDto> CreateToken(bool populateExp)
         {
-            var signinCredentials = GetSiginCredentials();
+            var signinCredentials = GetSignInCredentials();
             var claims = await GetClaims();
             var tokenOptions = GenerateTokenOptions(signinCredentials, claims);
 
@@ -78,7 +78,7 @@ namespace Services
             return result;
         }
 
-        private SigningCredentials GetSiginCredentials()
+        private SigningCredentials GetSignInCredentials()
         {
             var jwtSettings = _configuration.GetSection("JwtSettings");
             var key = Encoding.UTF8.GetBytes(jwtSettings["secretKey"]);

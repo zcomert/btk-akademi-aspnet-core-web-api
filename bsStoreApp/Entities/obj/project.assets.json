@@ -1039,11 +1039,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zafer\\Videos\\App\\bsStoreApp\\Entities\\Entities.csproj",
+      "projectUniqueName": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Users\\zafer\\Videos\\App\\bsStoreApp\\Entities\\Entities.csproj",
+      "projectPath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zafer\\Videos\\App\\bsStoreApp\\Entities\\obj\\",
+      "outputPath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",

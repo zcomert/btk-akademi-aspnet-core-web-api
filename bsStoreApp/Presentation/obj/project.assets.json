@@ -4575,11 +4575,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zafer\\Videos\\App\\bsStoreApp\\Presentation\\Presentation.csproj",
+      "projectUniqueName": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Presentation\\Presentation.csproj",
       "projectName": "Presentation",
-      "projectPath": "C:\\Users\\zafer\\Videos\\App\\bsStoreApp\\Presentation\\Presentation.csproj",
+      "projectPath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Presentation\\Presentation.csproj",
       "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zafer\\Videos\\App\\bsStoreApp\\Presentation\\obj\\",
+      "outputPath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Presentation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4596,8 +4596,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\zafer\\Videos\\App\\bsStoreApp\\Services\\Services.csproj": {
-              "projectPath": "C:\\Users\\zafer\\Videos\\App\\bsStoreApp\\Services\\Services.csproj"
+            "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Services\\Services.csproj": {
+              "projectPath": "F:\\Courses\\AspDotnetCoreWebApi\\Applications\\bsStoreApp\\Services\\Services.csproj"
             }
           }
         }

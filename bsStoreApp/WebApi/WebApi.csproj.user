@@ -8,4 +8,9 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
+
+  <PropertyGroup>
+    <ActiveDebugProfile>HelloWebAPi</ActiveDebugProfile>
+  </PropertyGroup>
+
 </Project>
