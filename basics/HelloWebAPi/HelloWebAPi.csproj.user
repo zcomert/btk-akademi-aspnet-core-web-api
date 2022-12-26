@@ -8,10 +8,9 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
-<<<<<<<< HEAD:bsStoreApp/WebApi/WebApi.csproj.user
-========
+
   <PropertyGroup>
     <ActiveDebugProfile>HelloWebAPi</ActiveDebugProfile>
   </PropertyGroup>
->>>>>>>> ch_02_aspnet_core:basics/HelloWebAPi/HelloWebAPi.csproj.user
+
 </Project>
